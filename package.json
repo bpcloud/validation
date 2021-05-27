@@ -1,0 +1,49 @@
+{
+  "description": "Some typescript decorators, like spring-validation and so on",
+  "dependencies": {
+    "febs-browser": "^1.2.3",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/tap": "^14.10.1",
+    "tap": "^14.10.8"
+  },
+  "directories": {},
+  "homepage": "https://github.com/bpcloud/validation#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bpcloud/validation.git"
+  },
+  "scripts": {
+    "test": "tsc --build tsconfig.json && tap dist/test/*.js",
+    "prepublishOnly": "tsc --build tsconfig.json",
+    "build": "tsc --build tsconfig.json"
+  },
+  "keywords": [
+    "decorator",
+    "java",
+    "spring",
+    "spring-validation",
+    "annotation",
+    "validation",
+    "bean"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
+  "types": "./types/index.d.ts",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "maintainers": [
+    {
+      "name": "brainpoint",
+      "email": "bpoint.lee@gmail.com"
+    }
+  ],
+  "name": "@bpframework/validation",
+  "version": "0.0.1"
+}
