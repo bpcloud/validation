@@ -1,4 +1,4 @@
-// Type definitions for febs-decorator
+// Type definitions for @bpframework/validation
 
 export * from './validation.d';
 

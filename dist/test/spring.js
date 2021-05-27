@@ -12,6 +12,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const tap_1 = require("tap");
 const __1 = require("..");
 const lib_1 = require("./lib");
+class DemoBean {
+}
+__decorate([
+    __1.NotNull,
+    __metadata("design:type", Boolean)
+], DemoBean.prototype, "a", void 0);
+new DemoBean();
 class SpringBean {
 }
 __decorate([

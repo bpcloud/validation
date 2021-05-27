@@ -33,6 +33,12 @@ import {
 } from '..'
 import { except_fail, except_success } from './lib'
 
+class DemoBean {
+  @NotNull
+  a: boolean;
+}
+new DemoBean();
+
 class SpringBean {
   @Null
   value_null: any
